@@ -34,18 +34,18 @@ export default class PastPurchases extends Component<PastPurchasesProps, PastPur
   }
 
   async componentDidMount() {
-    const userInfo = await Auth.currentUserInfo();
-    this.setState({ userInfo })
+    // const userInfo = await Auth.currentUserInfo();
+    // this.setState({ userInfo })
 
-    try {
-      const orders = await this.listOrders();
-      this.setState({ 
-        orders: orders,
-        isLoading: false
-     });
-    } catch (e) {
-      alert(e);
-    }
+    // try {
+    //   const orders = await this.listOrders();
+    //   this.setState({ 
+    //     orders: orders,
+    //     isLoading: false
+    //  });
+    // } catch (e) {
+    //   alert(e);
+    // }
   }
 
   listOrders() {

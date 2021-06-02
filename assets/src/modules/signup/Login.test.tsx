@@ -1,3 +1,10 @@
+/*
+* Student Name: Jagdeep Singh
+* Student ID: 1367758
+
+* All test cases for Login component
+*/
+
 import React from 'react';
 import Login from './Login';
 import ReactDOM from 'react-dom';

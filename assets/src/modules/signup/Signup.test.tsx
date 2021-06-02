@@ -1,4 +1,7 @@
 /*
+* Student Name: Jagdeep Singh
+* Student ID: 1367758
+
 * All test cases for signup component
 */
 import React from 'react';
