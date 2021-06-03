@@ -42,7 +42,7 @@ describe('PastPurchases Component Test', () => {
 
   it('Heading is correct', () => {
       const heading = container.querySelector("div.white-box > h3");
-      expect(heading?.textContent).toEqual("Past purases");
+      expect(heading?.textContent).toEqual("Past purchases");
   });
 
   /**
