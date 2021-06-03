@@ -43,4 +43,14 @@ describe('Singup test cases',  () => {
         expect(inputs).toHaveLength(3);
     });
 
+        /**
+       * testing the if the button is there
+       * Selecting the container where all the inputs of the page available
+       * checking the length of the the inputs with expecting length.
+       */
+    it('Check if button is there', () => {
+        const button = container.querySelectorAll("button");
+        expect(button).toHaveLength(0);
+    });
+
 });
