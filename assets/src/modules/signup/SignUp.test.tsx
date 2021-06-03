@@ -40,7 +40,7 @@ describe('Singup test cases',  () => {
        */
     it('Number of inputs', () => {  
         const inputs = container.querySelectorAll('input');
-        expect(inputs).toHaveLength(5);
+        expect(inputs).toHaveLength(3);
     });
 
 });
