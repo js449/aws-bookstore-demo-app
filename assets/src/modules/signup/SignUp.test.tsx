@@ -33,24 +33,34 @@ describe('Singup test cases',  () => {
         container.remove();
     });
 
-      /**
-       * testing the number of inputs in the signup form
-       * Selecting the container where all the inputs of the page available
-       * checking the length of the the inputs with expecting length.
-       */
+     /**
+     * testing the number of inputs in the signup form
+    * Selecting the container where all the inputs of the page available
+    * checking the length of the the inputs with expecting length.
+    */
     it('Number of inputs', () => {  
         const inputs = container.querySelectorAll('input');
         expect(inputs).toHaveLength(3);
     });
 
-        /**
-       * testing the if the button is there
-       * Selecting the container where all the inputs of the page available
-       * checking the length of the the inputs with expecting length.
-       */
+    /**
+    * testing the if the button is there
+    * Selecting the container where all the inputs of the page available
+    * checking the length of the the inputs with expecting length.
+    */
     it('Check if button is there', () => {
         const button = container.querySelectorAll("button");
         expect(button).toHaveLength(1);
+    });
+
+    /**
+    * testing the if the password check message there
+     * Selecting the container where all the span of the page available
+    * checking the length of the the span with expecting length.
+    */
+    it('Check if password message is there', () => {
+        const span = container.querySelectorAll('span');
+        expect(span).toHaveLength(5);
     });
 
 });
