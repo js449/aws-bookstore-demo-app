@@ -50,4 +50,12 @@ describe('Login Component Test', () => {
     expect(forms).toHaveLength(1);
   });
 
+  //testing if the sign in button is present
+  it('Check if sign in button is present', () => {
+      //Selecting the container's available buttons
+    const buttons = container.querySelectorAll('button')
+    //comparing leength with expected length
+    expect(buttons).toHaveLength(3);
+  })
+
 });
