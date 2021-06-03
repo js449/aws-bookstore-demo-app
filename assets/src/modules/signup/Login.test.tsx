@@ -34,12 +34,20 @@ describe('Login Component Test', () => {
     container.remove();
   });
 
-  //testing the numper of login inputs in login form
+  //testing the number of login inputs in login form
   it('Number of inputs in form', () => {
       //Selecting the container where all the inputs of the page available
     const inputs = container.querySelectorAll('input');
     //checking the length of the the inputs with expecting length.
     expect(inputs).toHaveLength(2);
+  });
+
+  //testing if the form is present
+  it('Check if form is present', () => {
+      //Selecting the container form available
+    const forms = container.querySelectorAll('form')
+    //checking the length of the the forms with expecting length.
+    expect(forms).toHaveLength(2);
   });
 
 });
