@@ -47,7 +47,7 @@ describe('Login Component Test', () => {
       //Selecting the container form available
     const forms = container.querySelectorAll('form')
     //checking the length of the the forms with expecting length.
-    expect(forms).toHaveLength(2);
+    expect(forms).toHaveLength(1);
   });
 
 });
