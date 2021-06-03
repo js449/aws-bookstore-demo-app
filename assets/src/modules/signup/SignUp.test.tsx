@@ -50,7 +50,7 @@ describe('Singup test cases',  () => {
        */
     it('Check if button is there', () => {
         const button = container.querySelectorAll("button");
-        expect(button).toHaveLength(0);
+        expect(button).toHaveLength(1);
     });
 
 });
