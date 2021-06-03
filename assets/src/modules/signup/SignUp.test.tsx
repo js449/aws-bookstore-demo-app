@@ -60,7 +60,7 @@ describe('Singup test cases',  () => {
     */
     it('Check if password message is there', () => {
         const span = container.querySelectorAll('span');
-        expect(span).toHaveLength(5);
+        expect(span).toHaveLength(1);
     });
 
 });
