@@ -43,7 +43,7 @@ describe('BestSeller Component Test', () => {
 */
   it('Top 20 best sellers', () => {
     const h3 = container.querySelector('div.container-category > h3');
-    expect(h3.textContent).toEqual("Top 20 best seller");
+    expect(h3.textContent).toEqual("Top 20 best sellers");
   });
 
 });
