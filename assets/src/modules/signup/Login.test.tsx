@@ -39,7 +39,7 @@ describe('Login Component Test', () => {
       //Selecting the container where all the inputs of the page available
     const inputs = container.querySelectorAll('input');
     //checking the length of the the inputs with expecting length.
-    expect(inputs).toHaveLength(5);
+    expect(inputs).toHaveLength(2);
   });
 
 });
