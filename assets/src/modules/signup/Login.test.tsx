@@ -55,7 +55,7 @@ describe('Login Component Test', () => {
       //Selecting the container's available buttons
     const buttons = container.querySelectorAll('button')
     //comparing leength with expected length
-    expect(buttons).toHaveLength(3);
+    expect(buttons).toHaveLength(1);
   })
 
 });
