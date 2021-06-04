@@ -1,3 +1,10 @@
+/*
+* Student Name: Jagdeep Singh
+* Student ID: 1367758
+
+* test case for PastPurchases component
+*/
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
